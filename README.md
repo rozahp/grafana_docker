@@ -20,9 +20,11 @@ Please feel free to copy, distribute and change this program in any way you like
 
 2. Rename downloaded file to: grafana-latest.linux-amd64.tar.gz
 
-2. Copy your dashboards or datasources to directories: grafana/datasources or grafana/dashboards
+3. Copy your dashboards or datasources to directories: grafana/datasources or grafana/dashboards
 
-    docker-compose -f docker-compose.yml build 
+Run:
+
+    docker-compose -f docker-compose.yml build
 
 and
 
